@@ -21,7 +21,6 @@ public class TankModel
     public void SetTankController(TankController tankController)
     {
         this.tankController = tankController;
-        Debug.Log(tankController.GetHashCode());
 
     }
 }
