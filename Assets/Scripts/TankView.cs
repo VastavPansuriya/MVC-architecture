@@ -10,6 +10,8 @@ public class TankView : MonoBehaviour
     private float movement;
     private float rotation;
 
+    public MeshRenderer[] parts;
+
     private void Start()
     {
         Transform cm = Camera.main.transform;
@@ -48,5 +50,13 @@ public class TankView : MonoBehaviour
     {
         Debug.Log(rb);
         return rb;
+    }
+
+    public void SetMaterial(Material material)
+    {
+        foreach (var part in parts)
+        {
+            part.material = material;
+        }
     }
 }

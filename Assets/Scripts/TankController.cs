@@ -18,6 +18,8 @@ public class TankController
 
         tankV.SetTankController(this);
         tankModel.SetTankController(this);
+
+        tankV.SetMaterial(tankModel.material);
     }
 
     public void Move(float movement, float speed)

@@ -447,6 +447,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 6782726243713872365}
+  parts:
+  - {fileID: 4382224758304440050}
+  - {fileID: 2580730944712240009}
+  - {fileID: 7571817215587364684}
+  - {fileID: 2550609491223537505}
 --- !u!65 &2488953514301108304
 BoxCollider:
   m_ObjectHideFlags: 0
